@@ -135,3 +135,404 @@ span{
    
     wes
 }
+/* General Styles for the Services Section */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.services .services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.services .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.services .heading span {
+    color: #3498db;
+}
+
+.services p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Styling the Service Box (Flex Container) */
+.services .service-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styling each service item */
+.services .service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 22%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.services .service-item h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.services .service-item p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Styling the "View More" button */
+.services .btn-2 {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 40px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.services .btn-2:hover {
+    background-color: #2980b9;
+}
+/* General Styles for the Experience Section */
+.experience {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.experience .experience-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.experience .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.experience .heading span {
+    color: #3498db;
+}
+
+.experience p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Styling the Experience Box (Flex Container) */
+.experience .experience-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styling each experience item */
+.experience .experience-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience .experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.experience .experience-item h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience .experience-item h4 {
+    font-size: 1.2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.experience .experience-item p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+.experience .experience-item ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.experience .experience-item ul li {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Styling the "Learn More" button */
+.experience .btn-2 {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 40px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.experience .btn-2:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .experience .experience-item {
+        width: 45%;
+    }
+
+    .experience .experience-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience .experience-item {
+        width: 100%;
+    }
+
+    .experience .heading {
+        font-size: 2rem;
+    }
+
+    .experience .btn-2 {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+}
+/* General Styles for the Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.projects .projects-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.projects .heading span {
+    color: #3498db;
+}
+
+.projects p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Styling the Projects Box (Flex Container) */
+.projects .projects-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styling each project item */
+.projects .project-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.projects .project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.projects .project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projects .project-item h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.projects .project-item p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+.projects .btn-2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 40px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.projects .btn-2:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .projects .project-item {
+        width: 45%;
+    }
+
+    .projects .projects-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects .project-item {
+        width: 100%;
+    }
+
+    .projects .heading {
+        font-size: 2rem;
+    }
+
+    .projects .btn-2 {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+}
+/* Contact Section */
+.contact {
+    padding: 80px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact .heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact .heading span {
+    color: #007BFF; /* Accent color */
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #666;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .input-box input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .btn-1 {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-1:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
